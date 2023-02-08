@@ -1,0 +1,794 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2023-02-07T19:11:15Z",
+  "lastModifiedAgent" : "structurizr-web/2914/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgb2RhID0gc29mdHdhcmVTeXN0ZW0gIk9kYSIgIkhqZW1sZXZlcmluZ3N0amVuZXN0ZSIgIk9kYSIgewogICAgICAgICAgICBsZXZlcmluZ3NUamVuZXN0ZSA9IGNvbnRhaW5lciAiT2RhIExldmVyaW5nc3RqZW5lc3RlIiAiQW5zdmFyIGZvciBvcmtlc3RyZXJpbmcgYXYgbGV2ZXJhbnNlciBmcmEgT2RhIiAiSmF2YSBXZWJzZXJ2aWNlIiAiT2RhIFdlYnNlcnZpY2UiIHsKICAgICAgICAgICAgICAgIGxhZ2VySW50ZWdyYXNqb24gPSBjb21wb25lbnQgIkxhZ2VyIEludGVncmFzam9uIiAia29tcG9uZW50IGZvciBpbnRlZ3Jhc2pvbiBtZWQgbGFnZXJ0amVuZXN0ZSIgIkphdmEgQ2xpZW50IiAiQ2xpZW50IgogICAgICAgICAgICAgICAgdmFyc2xpbmdJbnRlZ3Jhc2pvbiA9IGNvbXBvbmVudCAiVmFyc2xpbmcgSW50ZWdyYXNqb24iICJrb21wb25lbnQgZm9yIGludGVncmFzam9uIG1lZCB2YXJzbGluZ3N0amVuZXN0ZSIgIkphdmEgQ2xpZW50IiAiQ2xpZW50IgogICAgICAgICAgICAgICAgcG9zdGVuSW50ZWdyYXNqb24gPSBjb21wb25lbnQgIlBvc3RlbiBJbnRlZ3Jhc2pvbiIgImtvbXBvbmVudCBmb3IgaW50ZWdyYXNqb24gbWVkIHBvc3RlbiIgIkphdmEgQ2xpZW50IiAiQ2xpZW50IgogICAgICAgICAgICAgICAgZnJvbnRlbmRDb250cm9sbGVyID0gY29tcG9uZW50ICJGcm9udGVuZCBDb250cm9sbGVyIiAiR3JlbnNlc25pdHQgbW90IGZyb250ZW5kIiAiZ1JQQyBJbnRlcmZhY2UiIHsKICAgICAgICAgICAgICAgICAgICB0aGlzIC0+IHBvc3RlbkludGVncmFzam9uICJoZW50ZXIgc3BvcmluZ3MtIGluZm9ybWFzam9uIgogICAgICAgICAgICAgICAgICAgIHRoaXMgLT4gbGFnZXJJbnRlZ3Jhc2pvbiAiaGVudGVyIGxhZ2VyYmVob2xkbmluZyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVrc3Rlcm5Db250cm9sbGVyID0gY29tcG9uZW50ICJFa3N0ZXJuIENvbnRyb2xsZXIiICJHcmVuc2Vzbml0dCBtb3QgZWtzdGVybmUgdGplbmVzdGVyIiAiUkVTVCIKICAgICAgICAgICAgICAgIGFkbWluQ29udHJvbGxlciA9IGNvbXBvbmVudCAiQWRtaW4gQ29udHJvbGxlciIgIkdyZW5zZXNuaXR0IGZvciBhZG1pbmlzdHJhdG9yZXIiICJSRVNUIiB7CiAgICAgICAgICAgICAgICAgICAgdGhpcyAtPiBsYWdlckludGVncmFzam9uICJIZW50ZXIgb2cgb3BwZGF0ZXJlciBsYWdlcmJlaG9sZG5pbmciCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGxhZ2VyVGplbmVzdGUgPSBjb250YWluZXIgIk9kYSBTZW50cmFsbGFnZXIiICJPcmtlc3RyYXRvciBmb3IgT2RhcyBTZW50cmFsbGFnZXIiICJKYXZhIFdlYnNlcnZpY2UiICJPZGEgV2Vic2VydmljZSIgIHsKICAgICAgICAgICAgICAgIGxhZ2VySW50ZWdyYXNqb24gLT4gdGhpcyAiSGVudGVyIG9nIG9wcGRhdGVyZXIgbGFnZXJiZWhvbGRuaW5nIgogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhcnNsaW5nc3RqZW5lc3RlID0gY29udGFpbmVyICJPZGEgVmFyc2xpbmdzdGplbmVzdGUiICJPcmtlc3RyYXRvciBmb3IgT2RhcyBTZW50cmFsbGFnZXIiICJKYXZhIFdlYnNlcnZpY2UiICJPZGEgV2Vic2VydmljZSIgewogICAgICAgICAgICAgICAgdmFyc2xpbmdJbnRlZ3Jhc2pvbiAtPiB0aGlzICJPcHByZXR0ZXIgdmFyc2xpbmdlciIgIkhUVFAiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXBwID0gY29udGFpbmVyICJPZGEgQXBwIiAiTW9iaWxhcHBsaWthc2pvbiBmb3IgT2RhcyB0amVuZXN0ZXIiICJYYW1hcmluIGFwcCIgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHRoaXMgLT4gZnJvbnRlbmRDb250cm9sbGVyICJIZW50ZXIgc3BvcmluZ3MtIGluZm9ybWFzam9uIG9nIGxhZ2VyYmVob2xkbmluZyIgImdSUEMiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgb2RhV2ViID0gY29udGFpbmVyICJPZGEgV2ViIiAiV2ViYXBwbGlrYXNqb24gZm9yIE9kYXMgdGplbmVzdGVyIiAiUmVhY3QiICJXZWIgUGFnZSIgewogICAgICAgICAgICAgICAgdGhpcyAtPiBmcm9udGVuZENvbnRyb2xsZXIgIkhlbnRlciBzcG9yaW5ncy0gaW5mb3JtYXNqb24gb2cgbGFnZXJiZWhvbGRuaW5nIiAiZ1JQQyIKICAgICAgICAgICAgfQogICAgICAgICAgICBsYWdlcmRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIkRhdGFiYXNlIGZvciBsYWdlcmJlaG9sZG5pbmciICJNeVNRTCIgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBsYWdlclRqZW5lc3RlIC0+IHRoaXMgImxhZ3JlciBvZyBvcHBkYXRlcmVyIGxhZ2VyYmVob2xkbmluZyIgIlNRTCIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbmV0dGJ1dGlrayA9IHNvZnR3YXJlU3lzdGVtICJOZXR0YnV0aWtrIiB7CiAgICAgICAgICAgIG5ldHRidXRpa2tJbnRlZ3Jhc2pvbiA9IGNvbnRhaW5lciAiSW50ZWdyYXNqb25zbMO4c25pbmcgZm9yIG5ldHRidXRpa2tlciIgIkVrc3Rlcm4gc2FtbGVzdGplbmVzdGUgZm9yIGxldmVyaW5nc3RqZW5lc3RlciB0aWwgbmV0dGJ1dGlra2VyIiAiSW50ZWdyYXNqb24iICJFa3N0ZXJuIiB7IAogICAgICAgICAgICAgICAgdGhpcyAtPiBla3N0ZXJuQ29udHJvbGxlciAiU2pla2tlciBvbSBsZXZlcmFuc2UgZXIgbXVsaWcgbWVkIG9kYSBvZyBvcHByZXR0ZXIgbGV2ZXJhbnNlciIgImdSUEMiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgd2Vic2hvcCA9IGNvbnRhaW5lciAiV2Vic2hvcCIgIk5ldHRidXRpa2tlbnMgd2VidGplbmVzdGUiICJIVE1MIiAiV2ViIFBhZ2UiIHsKICAgICAgICAgICAgICAgIHRoaXMgLT4gbmV0dGJ1dGlra0ludGVncmFzam9uICJIZW50ZXIgdGlsZ2plbmdlbGlnZSBsZXZlcmluZ3NtZXRvZGVyIiAiSFRUUCIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgCiAgICAgICAgcG9zdGVuID0gc29mdHdhcmVTeXN0ZW0gIlBvc3RlbiIgIkFQSSBmb3IgUG9zdGVucyB0amVuZXN0ZXIiICJQb3N0ZW4iIHsKICAgICAgICAgICAgcG9zdGVuU3BvcmluZyA9IGNvbnRhaW5lciAiUG9zdGVucyBzcG9yaW5nc3N5c3RlbSIgIlRqZW5lc3RlIGZvciBzcG9yaW5nIGF2IGZvcnNlbmRlbHNlciB2aWEgUG9zdGVuIiAiV2Vic2VydmljZSIgIlBvc3RlbiIgewogICAgICAgICAgICAgICAgdGhpcyAtPiBla3N0ZXJuQ29udHJvbGxlciAiaGVudGVyIG9nIG9wcGRhdGVyZXIgc3BvcmluZ3MtIGluZm9ybWFzam9uIiAiSFRUUCIKICAgICAgICAgICAgICAgIHBvc3RlbkludGVncmFzam9uIC0+IHRoaXMgImhlbnRlciBvZyBvcHBkYXRlcmVyIHNwb3JpbmdzLSBpbmZvcm1hc2pvbiIgIkhUVFAiCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGt1bmRlID0gcGVyc29uICJLdW5kZSIgewogICAgICAgICAgICB0aGlzIC0+IGFwcCAiQnJ1a2VyIGFwcGxpa2Fzam9uIgogICAgICAgICAgICB0aGlzIC0+IG9kYVdlYiAiQnJ1a2VyIG5ldHRzaWRlIgogICAgICAgICAgICB2YXJzbGluZ3N0amVuZXN0ZSAtPiB0aGlzICJTZW5kZXIgdmFyc2xpbmdlciIKICAgICAgICAgICAgdGhpcyAtPiB3ZWJzaG9wICJIYW5kbGVyIHZhcmVyIgogICAgICAgIH0KICAgICAgICBhZG1pbiA9IHBlcnNvbiAiQWRtaW4iIHsKICAgICAgICAgICAgdGhpcyAtPiBhZG1pbkNvbnRyb2xsZXIgIkhlbnRlciBsYWdlcnN0YXR1cyBvZyBzcG9yaW5ncy0gaW5mb3JtYXNqb24iICJIVFRQIgogICAgICAgIH0KCiAgICAgICAgQUQgPSBzb2Z0d2FyZVN5c3RlbSAiUMOlbG9nZ2luZ3N0amVuZXN0ZSIgewogICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJsb2dnZXIgcMOlIgogICAgICAgICAgICBrdW5kZSAtPiB0aGlzICJsb2dnZXIgcMOlIgogICAgICAgIH0KCiAgICAgICAgZHJpdmVyID0gcGVyc29uICJTasOlZsO4ciIgIkxldmVyZXIgdmFyZXIgZnJhIE9kYSBvZyBzYW1hcmJlaWRzcGFydG5lcmUiIHsKICAgICAgICAgICAgdGhpcyAtPiBla3N0ZXJuQ29udHJvbGxlciAiaGVudGVyIG9nIG9wcGRhdGVyZXIgbGV2ZXJpbmdzLSBpbmZvcm1hc2pvbiIgIkhUVFAiCiAgICAgICAgfQogICAgfQogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgb2RhICJPZGFfY29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CiAgICAgICAgY29udGFpbmVyIG9kYSAiT2RhX2NvbnRhaW5lcl9hbGwiIHsKICAgICAgICAgICAgaW5jbHVkZSAiZWxlbWVudC50eXBlPT1jb250YWluZXIiCiAgICAgICAgICAgIGluY2x1ZGUgImVsZW1lbnQudHlwZT09cGVyc29uIgogICAgICAgICAgICBpbmNsdWRlICJlbGVtZW50LnR5cGU9PXNvZnR3YXJlU3lzdGVtIgogICAgICAgIH0KICAgICAgICBjb21wb25lbnQgbGV2ZXJpbmdzVGplbmVzdGUgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIk9kYSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZDE4MzBmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNhMTlmYTAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJNb2JpbGUgQXBwIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VQb3J0cmFpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBQYWdlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRWtzdGVybiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTAxMzllCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiT2RhIFdlYnNlcnZpY2UiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2QxODMwZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBvc3RlbiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOWUxYzEzCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQgCiAgICB9Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "65",
+      "tags" : "Element,Person",
+      "name" : "Sjåfør",
+      "description" : "Leverer varer fra Oda og samarbeidspartnere",
+      "relationships" : [ {
+        "id" : "68",
+        "sourceId" : "65",
+        "destinationId" : "1",
+        "description" : "henter og oppdaterer leverings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "66"
+      }, {
+        "id" : "66",
+        "tags" : "Relationship",
+        "sourceId" : "65",
+        "destinationId" : "9",
+        "description" : "henter og oppdaterer leverings- informasjon",
+        "technology" : "HTTP"
+      }, {
+        "id" : "67",
+        "sourceId" : "65",
+        "destinationId" : "2",
+        "description" : "henter og oppdaterer leverings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "66"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "58",
+      "tags" : "Element,Person",
+      "name" : "Admin",
+      "relationships" : [ {
+        "id" : "59",
+        "tags" : "Relationship",
+        "sourceId" : "58",
+        "destinationId" : "10",
+        "description" : "Henter lagerstatus og sporings- informasjon",
+        "technology" : "HTTP"
+      }, {
+        "id" : "63",
+        "tags" : "Relationship",
+        "sourceId" : "58",
+        "destinationId" : "62",
+        "description" : "logger på"
+      }, {
+        "id" : "61",
+        "sourceId" : "58",
+        "destinationId" : "1",
+        "description" : "Henter lagerstatus og sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "59"
+      }, {
+        "id" : "60",
+        "sourceId" : "58",
+        "destinationId" : "2",
+        "description" : "Henter lagerstatus og sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "59"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "50",
+      "tags" : "Element,Person",
+      "name" : "Kunde",
+      "relationships" : [ {
+        "id" : "57",
+        "sourceId" : "50",
+        "destinationId" : "26",
+        "description" : "Handler varer",
+        "linkedRelationshipId" : "56"
+      }, {
+        "id" : "56",
+        "tags" : "Relationship",
+        "sourceId" : "50",
+        "destinationId" : "34",
+        "description" : "Handler varer"
+      }, {
+        "id" : "64",
+        "tags" : "Relationship",
+        "sourceId" : "50",
+        "destinationId" : "62",
+        "description" : "logger på"
+      }, {
+        "id" : "51",
+        "tags" : "Relationship",
+        "sourceId" : "50",
+        "destinationId" : "18",
+        "description" : "Bruker applikasjon"
+      }, {
+        "id" : "52",
+        "sourceId" : "50",
+        "destinationId" : "1",
+        "description" : "Bruker applikasjon",
+        "linkedRelationshipId" : "51"
+      }, {
+        "id" : "53",
+        "tags" : "Relationship",
+        "sourceId" : "50",
+        "destinationId" : "21",
+        "description" : "Bruker nettside"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "62",
+      "tags" : "Element,Software System",
+      "name" : "Påloggingstjeneste",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,Oda",
+      "name" : "Oda",
+      "description" : "Hjemleveringstjeneste",
+      "relationships" : [ {
+        "id" : "49",
+        "sourceId" : "1",
+        "destinationId" : "36",
+        "description" : "henter og oppdaterer sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "44"
+      }, {
+        "id" : "55",
+        "sourceId" : "1",
+        "destinationId" : "50",
+        "description" : "Sender varslinger",
+        "linkedRelationshipId" : "54"
+      }, {
+        "id" : "48",
+        "sourceId" : "1",
+        "destinationId" : "37",
+        "description" : "henter og oppdaterer sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "44"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "24",
+        "tags" : "Element,Container,Database",
+        "name" : "Database",
+        "description" : "Database for lagerbeholdning",
+        "technology" : "MySQL",
+        "documentation" : { }
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container,Oda Webservice",
+        "name" : "Oda Leveringstjeneste",
+        "description" : "Ansvar for orkestrering av leveranser fra Oda",
+        "relationships" : [ {
+          "id" : "14",
+          "sourceId" : "2",
+          "destinationId" : "12",
+          "description" : "Henter og oppdaterer lagerbeholdning",
+          "linkedRelationshipId" : "13"
+        }, {
+          "id" : "47",
+          "sourceId" : "2",
+          "destinationId" : "36",
+          "description" : "henter og oppdaterer sporings- informasjon",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "44"
+        }, {
+          "id" : "17",
+          "sourceId" : "2",
+          "destinationId" : "15",
+          "description" : "Oppretter varslinger",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "16"
+        }, {
+          "id" : "46",
+          "sourceId" : "2",
+          "destinationId" : "37",
+          "description" : "henter og oppdaterer sporings- informasjon",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "44"
+        } ],
+        "technology" : "Java Webservice",
+        "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "name" : "Frontend Controller",
+          "description" : "Grensesnitt mot frontend",
+          "relationships" : [ {
+            "id" : "8",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "3",
+            "description" : "henter lagerbeholdning"
+          }, {
+            "id" : "7",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "5",
+            "description" : "henter sporings- informasjon"
+          } ],
+          "technology" : "gRPC Interface",
+          "size" : 0
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component,Client",
+          "name" : "Posten Integrasjon",
+          "description" : "komponent for integrasjon med posten",
+          "relationships" : [ {
+            "id" : "45",
+            "sourceId" : "5",
+            "destinationId" : "36",
+            "description" : "henter og oppdaterer sporings- informasjon",
+            "technology" : "HTTP",
+            "linkedRelationshipId" : "44"
+          }, {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "37",
+            "description" : "henter og oppdaterer sporings- informasjon",
+            "technology" : "HTTP"
+          } ],
+          "technology" : "Java Client",
+          "size" : 0
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "name" : "Ekstern Controller",
+          "description" : "Grensesnitt mot eksterne tjenester",
+          "technology" : "REST",
+          "size" : 0
+        }, {
+          "id" : "4",
+          "tags" : "Element,Component,Client",
+          "name" : "Varsling Integrasjon",
+          "description" : "komponent for integrasjon med varslingstjeneste",
+          "relationships" : [ {
+            "id" : "16",
+            "tags" : "Relationship",
+            "sourceId" : "4",
+            "destinationId" : "15",
+            "description" : "Oppretter varslinger",
+            "technology" : "HTTP"
+          } ],
+          "technology" : "Java Client",
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Admin Controller",
+          "description" : "Grensesnitt for administratorer",
+          "relationships" : [ {
+            "id" : "11",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "3",
+            "description" : "Henter og oppdaterer lagerbeholdning"
+          } ],
+          "technology" : "REST",
+          "size" : 0
+        }, {
+          "id" : "3",
+          "tags" : "Element,Component,Client",
+          "name" : "Lager Integrasjon",
+          "description" : "komponent for integrasjon med lagertjeneste",
+          "relationships" : [ {
+            "id" : "13",
+            "tags" : "Relationship",
+            "sourceId" : "3",
+            "destinationId" : "12",
+            "description" : "Henter og oppdaterer lagerbeholdning"
+          } ],
+          "technology" : "Java Client",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "21",
+        "tags" : "Element,Container,Web Page",
+        "name" : "Oda Web",
+        "description" : "Webapplikasjon for Odas tjenester",
+        "relationships" : [ {
+          "id" : "23",
+          "sourceId" : "21",
+          "destinationId" : "2",
+          "description" : "Henter sporings- informasjon og lagerbeholdning",
+          "technology" : "gRPC",
+          "linkedRelationshipId" : "22"
+        }, {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "21",
+          "destinationId" : "6",
+          "description" : "Henter sporings- informasjon og lagerbeholdning",
+          "technology" : "gRPC"
+        } ],
+        "technology" : "React",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container,Oda Webservice",
+        "name" : "Oda Varslingstjeneste",
+        "description" : "Orkestrator for Odas Sentrallager",
+        "relationships" : [ {
+          "id" : "54",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "50",
+          "description" : "Sender varslinger"
+        } ],
+        "technology" : "Java Webservice",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Oda Webservice",
+        "name" : "Oda Sentrallager",
+        "description" : "Orkestrator for Odas Sentrallager",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "24",
+          "description" : "lagrer og oppdaterer lagerbeholdning",
+          "technology" : "SQL"
+        } ],
+        "technology" : "Java Webservice",
+        "documentation" : { }
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container,Mobile App",
+        "name" : "Oda App",
+        "description" : "Mobilapplikasjon for Odas tjenester",
+        "relationships" : [ {
+          "id" : "20",
+          "sourceId" : "18",
+          "destinationId" : "2",
+          "description" : "Henter sporings- informasjon og lagerbeholdning",
+          "technology" : "gRPC",
+          "linkedRelationshipId" : "19"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "6",
+          "description" : "Henter sporings- informasjon og lagerbeholdning",
+          "technology" : "gRPC"
+        } ],
+        "technology" : "Xamarin app",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "26",
+      "tags" : "Element,Software System",
+      "name" : "Nettbutikk",
+      "relationships" : [ {
+        "id" : "33",
+        "sourceId" : "26",
+        "destinationId" : "1",
+        "description" : "Sjekker om leveranse er mulig med oda og oppretter leveranser",
+        "technology" : "gRPC",
+        "linkedRelationshipId" : "28"
+      }, {
+        "id" : "31",
+        "sourceId" : "26",
+        "destinationId" : "9",
+        "description" : "Sjekker om leveranse er mulig med oda og oppretter leveranser",
+        "technology" : "gRPC",
+        "linkedRelationshipId" : "28"
+      }, {
+        "id" : "32",
+        "sourceId" : "26",
+        "destinationId" : "2",
+        "description" : "Sjekker om leveranse er mulig med oda og oppretter leveranser",
+        "technology" : "gRPC",
+        "linkedRelationshipId" : "28"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "27",
+        "tags" : "Element,Container,Ekstern",
+        "name" : "Integrasjonsløsning for nettbutikker",
+        "description" : "Ekstern samlestjeneste for leveringstjenester til nettbutikker",
+        "relationships" : [ {
+          "id" : "30",
+          "sourceId" : "27",
+          "destinationId" : "1",
+          "description" : "Sjekker om leveranse er mulig med oda og oppretter leveranser",
+          "technology" : "gRPC",
+          "linkedRelationshipId" : "28"
+        }, {
+          "id" : "29",
+          "sourceId" : "27",
+          "destinationId" : "2",
+          "description" : "Sjekker om leveranse er mulig med oda og oppretter leveranser",
+          "technology" : "gRPC",
+          "linkedRelationshipId" : "28"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship",
+          "sourceId" : "27",
+          "destinationId" : "9",
+          "description" : "Sjekker om leveranse er mulig med oda og oppretter leveranser",
+          "technology" : "gRPC"
+        } ],
+        "technology" : "Integrasjon",
+        "documentation" : { }
+      }, {
+        "id" : "34",
+        "tags" : "Element,Container,Web Page",
+        "name" : "Webshop",
+        "description" : "Nettbutikkens webtjeneste",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship",
+          "sourceId" : "34",
+          "destinationId" : "27",
+          "description" : "Henter tilgjengelige leveringsmetoder",
+          "technology" : "HTTP"
+        } ],
+        "technology" : "HTML",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "36",
+      "tags" : "Element,Software System,Posten",
+      "name" : "Posten",
+      "description" : "API for Postens tjenester",
+      "relationships" : [ {
+        "id" : "43",
+        "sourceId" : "36",
+        "destinationId" : "1",
+        "description" : "henter og oppdaterer sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "38"
+      }, {
+        "id" : "41",
+        "sourceId" : "36",
+        "destinationId" : "9",
+        "description" : "henter og oppdaterer sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "38"
+      }, {
+        "id" : "42",
+        "sourceId" : "36",
+        "destinationId" : "2",
+        "description" : "henter og oppdaterer sporings- informasjon",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "38"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "37",
+        "tags" : "Element,Container,Posten",
+        "name" : "Postens sporingssystem",
+        "description" : "Tjeneste for sporing av forsendelser via Posten",
+        "relationships" : [ {
+          "id" : "39",
+          "sourceId" : "37",
+          "destinationId" : "2",
+          "description" : "henter og oppdaterer sporings- informasjon",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "38"
+        }, {
+          "id" : "40",
+          "sourceId" : "37",
+          "destinationId" : "1",
+          "description" : "henter og oppdaterer sporings- informasjon",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "38"
+        }, {
+          "id" : "38",
+          "tags" : "Relationship",
+          "sourceId" : "37",
+          "destinationId" : "9",
+          "description" : "henter og oppdaterer sporings- informasjon",
+          "technology" : "HTTP"
+        } ],
+        "technology" : "Webservice",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "Oda_context",
+      "order" : 1,
+      "dimensions" : {
+        "width" : 1888,
+        "height" : 2184
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 913,
+          "y" : 699
+        } ]
+      }, {
+        "id" : "43",
+        "vertices" : [ {
+          "x" : 735,
+          "y" : 1496
+        } ]
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "55",
+        "vertices" : [ {
+          "x" : 1123,
+          "y" : 829
+        } ]
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "49",
+        "vertices" : [ {
+          "x" : 456,
+          "y" : 1384
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 524,
+        "y" : 907
+      }, {
+        "id" : "58",
+        "x" : 199,
+        "y" : 207
+      }, {
+        "id" : "36",
+        "x" : 218,
+        "y" : 1674
+      }, {
+        "id" : "26",
+        "x" : 1238,
+        "y" : 919
+      }, {
+        "id" : "50",
+        "x" : 998,
+        "y" : 199
+      }, {
+        "id" : "65",
+        "x" : 1058,
+        "y" : 1584
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "Oda_container_all",
+      "order" : 2,
+      "dimensions" : {
+        "width" : 4229,
+        "height" : 3387
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "60"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "29"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "46",
+        "vertices" : [ {
+          "x" : 1594,
+          "y" : 2502
+        } ]
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 1894,
+          "y" : 2501
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "12",
+        "x" : 385,
+        "y" : 1840
+      }, {
+        "id" : "34",
+        "x" : 3554,
+        "y" : 1134
+      }, {
+        "id" : "24",
+        "x" : 395,
+        "y" : 2425
+      }, {
+        "id" : "58",
+        "x" : 399,
+        "y" : 414
+      }, {
+        "id" : "37",
+        "x" : 1520,
+        "y" : 2890
+      }, {
+        "id" : "15",
+        "x" : 2625,
+        "y" : 1535
+      }, {
+        "id" : "27",
+        "x" : 3559,
+        "y" : 1889
+      }, {
+        "id" : "18",
+        "x" : 1564,
+        "y" : 979
+      }, {
+        "id" : "2",
+        "x" : 1519,
+        "y" : 1814
+      }, {
+        "id" : "50",
+        "x" : 2634,
+        "y" : 399
+      }, {
+        "id" : "62",
+        "x" : 1504,
+        "y" : 199
+      }, {
+        "id" : "21",
+        "x" : 2214,
+        "y" : 1044
+      }, {
+        "id" : "65",
+        "x" : 3345,
+        "y" : 2800
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Oda-OdaLeveringstjeneste-Component",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 4585,
+        "height" : 3085
+      },
+      "containerId" : "2",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "41"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "59"
+      }, {
+        "id" : "19"
+      } ],
+      "elements" : [ {
+        "id" : "12",
+        "x" : 529,
+        "y" : 2544
+      }, {
+        "id" : "36",
+        "x" : 2089,
+        "y" : 2584
+      }, {
+        "id" : "58",
+        "x" : 199,
+        "y" : 424
+      }, {
+        "id" : "26",
+        "x" : 3934,
+        "y" : 1679
+      }, {
+        "id" : "15",
+        "x" : 2929,
+        "y" : 684
+      }, {
+        "id" : "18",
+        "x" : 1224,
+        "y" : 199
+      }, {
+        "id" : "3",
+        "x" : 889,
+        "y" : 1794
+      }, {
+        "id" : "4",
+        "x" : 2595,
+        "y" : 1205
+      }, {
+        "id" : "5",
+        "x" : 1675,
+        "y" : 1770
+      }, {
+        "id" : "6",
+        "x" : 1660,
+        "y" : 1180
+      }, {
+        "id" : "9",
+        "x" : 2585,
+        "y" : 1770
+      }, {
+        "id" : "65",
+        "x" : 3480,
+        "y" : 2495
+      }, {
+        "id" : "21",
+        "x" : 1979,
+        "y" : 269
+      }, {
+        "id" : "10",
+        "x" : 875,
+        "y" : 1175
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Oda",
+          "background" : "#d1830f"
+        }, {
+          "tag" : "Database",
+          "background" : "#a19fa0",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDevicePortrait"
+        }, {
+          "tag" : "Web Page",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Ekstern",
+          "background" : "#90139e"
+        }, {
+          "tag" : "Oda Webservice",
+          "background" : "#d1830f"
+        }, {
+          "tag" : "Posten",
+          "background" : "#9e1c13"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Oda-OdaLeveringstjeneste-Component"
+    }
+  }
+}
